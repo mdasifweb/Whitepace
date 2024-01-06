@@ -1,0 +1,558 @@
+/*Google fonts and web all extentions
+font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif; 
+Color - 043873
+FFE492-Color
+color - 4F9CF9
+  */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@400;500;700&display=swap");
+/*Basic CSS*/
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #999;
+  color: #ffffff;
+  line-height: 1.7;
+}
+.theme-button {
+  display: inline-block;
+  border-radius: 8px;
+  background: #4f9cf9;
+  padding: 16px 24px !important;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.theme-button:hover {
+  color: #ffffff;
+}
+.theme-button i {
+  margin-left: 10px;
+}
+.theme-button-two {
+  display: inline-block;
+  border-radius: 8px;
+  background: #ffe492;
+  padding: 16px 24px !important;
+  color: #043873 !important ;
+  margin-left: 24px;
+}
+.theme-button-three {
+  display: inline-block;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ffe492;
+  padding: 16px 24px !important;
+  color: #043873 !important ;
+  margin-left: 24px;
+  text-decoration: none;
+}
+.theme-text h3 {
+  font-size: 68px;
+  color: #212529;
+  margin-bottom: 15px;
+}
+.theme-text p {
+  color: #212529;
+}
+.theme-text h3 span {
+  position: relative;
+  z-index: 1;
+}
+.theme-text h3 span::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 60px;
+  left: 0;
+  bottom: 0;
+  background-image: url(img/element.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*Header CSS*/
+.header-area .theme-button {
+  margin-left: 24px;
+}
+.header-area .theme-button-two {
+  margin-left: 24px;
+}
+.header-area {
+  background-color: #043873;
+  padding: 16px 0;
+}
+.header-area .nav-link {
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  padding: 16px 24px !important;
+}
+.header-area .navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+/*Hero CSS*/
+.hero-text h3 {
+  font-weight: 700;
+  font-size: 52px;
+}
+.hero-area {
+  background-image: url(img/hero-section.png);
+  padding: 140px 0;
+  background-size: cover;
+  background-position: center;
+}
+.hero-area .theme-button {
+  margin-top: 30px;
+}
+/*Management CSS*/
+.management-area {
+  background-color: #ffffff;
+  padding: 140px 0;
+}
+.work-management {
+  margin-top: 100px;
+}
+/*Extension CSS*/
+.extension-area {
+  padding: 140px 0;
+  background-color: #043873;
+}
+.extension-area .theme-text h3 {
+  color: #ffffff;
+}
+.extension-area .theme-text p {
+  color: #ffffff;
+}
+/*Customise-area*/
+.customise-area {
+  background-color: #ffffff;
+  padding: 140px 0;
+}
+/*Pricing-area CSS*/
+.pricing-area {
+  padding: 140px 0;
+  background-color: #ffffff;
+}
+.pricing-area .theme-text {
+  margin-bottom: 60px;
+}
+.singel-pricing {
+  color: #212529;
+  border-radius: 10px;
+  border: 1px solid #ffe492;
+  padding: 40px 44px;
+}
+.singel-pricing h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.singel-pricing h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.singel-pricing ul {
+  margin: 0;
+  padding: 0;
+  margin: 25px 0;
+}
+.singel-pricing ul li {
+  list-style: none;
+  margin-bottom: 28px;
+  display: flex;
+  align-items: center;
+}
+.singel-pricing ul li:last-child {
+  margin: 0;
+}
+.special-pricing {
+  padding: 80px 44px;
+  background-color: #043873;
+  color: #fff;
+}
+.special-pricing h2 {
+  color: #ffe492;
+}
+.singel-pricing img {
+  height: 21px !important;
+  width: 21px !important;
+  margin-right: 10px;
+}
+.pricing-area .owl-dots {
+  text-align: center;
+}
+.pricing-area .owl-dots button {
+  height: 15px;
+  width: 15px;
+  background-color: #4f9cf9 !important;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.pricing-area .owl-dots button.active {
+  background-color: #043873 !important;
+}
+
+/*Your-work-area CSS*/
+.your-work-area {
+  padding: 140px 0;
+  background-color: #043873;
+}
+.your-work-area .theme-text h3 {
+  color: #fff;
+}
+.your-work-area .theme-text p {
+  color: #fff;
+}
+/*Your-task-area CSS*/
+.your-task-area {
+  padding: 140px 0;
+  background-color: #fff;
+}
+/*Sponsors-area CSS*/
+.sponsors-area {
+  padding: 140px 0;
+  background-color: #fff;
+}
+.sponsors-area .theme-text {
+  margin-bottom: 80px;
+}
+.singel-sponsers img {
+  height: 55px;
+  width: auto;
+}
+/*Apps area CSS*/
+.apps-area {
+  padding: 140px 0;
+  background-image: url(img/hero2.png);
+  background-position: center;
+  background-size: cover;
+}
+.apps-area .theme-text h3 {
+  color: #fff;
+}
+.apps-area .theme-text p {
+  color: #fff;
+}
+/*Testimonial-area CSS*/
+.testimonial-area {
+  padding: 140px 0;
+  background-color: #fff;
+}
+.testimonial-area .theme-text {
+  margin-bottom: 50px;
+}
+.singel-testimonial {
+  border-radius: 10px;
+  background: #4f9cf9;
+  box-shadow: 15px 10px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 50px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+.singel-testimonial:hover {
+  background-color: #fff;
+  color: #212529;
+  cursor: pointer;
+}
+.testimonial-text {
+  border-bottom: 1px solid #fff;
+}
+.testimonial-text i {
+  font-size: 60px;
+}
+.testimonial-text p {
+  margin-bottom: 25px;
+}
+.testimonial-author {
+  margin-top: 40px;
+  display: flex;
+}
+.author-image {
+  margin-right: 25px;
+}
+.author-text h3 {
+  font-size: 24px;
+  color: #043873;
+}
+.author-text p {
+  margin-bottom: 0;
+}
+.testimonial-area .owl-dots {
+  text-align: center;
+  margin-top: 50px;
+}
+.testimonial-area .owl-dots button {
+  height: 15px;
+  width: 15px;
+  background-color: #4f9cf9 !important;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.testimonial-area .owl-dots button.active {
+  background-color: #043873 !important;
+}
+/*Trial-area CSS*/
+.trial-area {
+  padding: 140px 0;
+  background-color: #043873;
+}
+.trial-text h3 {
+  font-size: 65px;
+}
+.trial-text p {
+  font-size: 24px;
+}
+.trial-area .theme-button {
+  margin: 20px 0;
+}
+.trial-image {
+  margin-top: 40px;
+}
+.trial-image a {
+  margin: 0 20px;
+  text-decoration: none;
+}
+/*Footer area CSS*/
+.footer-area {
+  background-color: #043873;
+  border-top: 1px solid #2e4e73;
+  padding-top: 140px;
+}
+.footer-top {
+  padding-bottom: 60px;
+}
+.footer-about img {
+  margin-bottom: 15px;
+}
+.footer-link h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-link ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-link ul li {
+  list-style: none;
+}
+
+.footer-link a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.footer-link a:hover {
+  color: #ffe492;
+}
+.footer-contact h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+/*Footer-bottom area CSS*/
+.footer-bottom {
+  border-top: 1px solid #2e4e73;
+  padding: 32px 0;
+}
+.footer-lan a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-lan .dropdown-menu a {
+  color: #212529;
+}
+
+.footer-lan i {
+  margin-right: 10px;
+}
+.footer-social {
+  text-align: right;
+}
+.footer-social a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  margin-left: 32px;
+}
+
+/*Responsive CSS*/
+@media (max-width: 991px) {
+  /*Theme Responsive*/
+  .theme-button {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .theme-button-two {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  /*Header Responsive*/
+  .header-area {
+    font-size: 18px !important;
+  }
+
+  .header-area .nav-link {
+    padding: 16px 0 !important;
+  }
+  .header-area .nav-link {
+    position: relative;
+  }
+  .header-area .nav-link::after {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .header-area .theme-button {
+    margin-left: 0;
+  }
+  .header-area .theme-button-two {
+    margin-left: 0;
+  }
+
+  /*Hero Responsive*/
+  .hero-area {
+    padding: 80px 0;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-text h3 {
+    font-size: 36px;
+  }
+  .hero-area .theme-button {
+    margin-bottom: 25px;
+  }
+  /*Management area resposive*/
+  .management-area {
+    padding: 80px 0;
+  }
+  .work-management {
+    margin-top: 60px;
+  }
+  .theme-text {
+    text-align: center;
+  }
+  .theme-text h3 {
+    font-size: 36px;
+  }
+  .management-area .theme-button {
+    margin-bottom: 50px;
+  }
+  /*Extension Responsive*/
+  .extension-area {
+    padding: 80px 0;
+  }
+
+  .extension-area .theme-button {
+    margin-bottom: 50px;
+  }
+  /*Customise-area*/
+  .customise-area {
+    padding: 80px 0;
+  }
+  /*Pricing-area Responsive*/
+  .singel-area {
+    padding: 80px 0;
+  }
+  .singel-pricing {
+    margin-bottom: 30px;
+  }
+  /*Your-work-area Responsive*/
+  .your-work-area {
+    padding: 80px 0;
+  }
+  /*Your-task-area Responsive*/
+  .your-task-area {
+    padding: 80px 0;
+  }
+  /*Sponsors-area Responsive*/
+  .sponsors-area {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  .singel-sponsers {
+    margin-bottom: 50px;
+  }
+  /*Apps area Responsive*/
+  .apps-area {
+    padding: 80px 0;
+  }
+  .apps-image {
+    margin-bottom: 50px;
+  }
+  /*Testimonial-area Responsive*/
+  .testimonial-area {
+    padding: 80px 0;
+  }
+  /*Trial-area Responsive*/
+  .trial-area {
+    padding: 80px 0;
+  }
+  .trial-text h3 {
+    font-size: 32px;
+  }
+  .trial-text p {
+    font-size: 18px;
+  }
+  .trial-image a {
+    margin: 0;
+    margin-right: 40px;
+  }
+  /*Footer area Responsive*/
+  .footer-top {
+    text-align: center;
+  }
+  .footer-about {
+    margin-bottom: 40px;
+  }
+  .footer-link {
+    margin: 40px 0;
+  }
+  .footer-contact {
+    margin-top: 40px;
+  }
+  /*Footer-bottom area Responsive*/
+  .footer-bottom {
+    border-top: none;
+  }
+  .footer-lan {
+    text-align: center;
+  }
+  .footer-copyright {
+    padding: 32px 0;
+  }
+  .footer-social {
+    text-align: center;
+    border-top: 1px solid #2e4e73;
+    padding-top: 32px;
+  }
+  .footer-social a {
+    margin: 0 16px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .header-area {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1299px) {
+  .header-area {
+    font-size: 14px;
+  }
+  .header-area .nav-link {
+    padding: 10px 14px !important;
+  }
+}
